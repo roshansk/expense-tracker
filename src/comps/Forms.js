@@ -50,7 +50,7 @@ class Forms extends Component {
                     </div>    
                     <div id='balance-alert' style={{display:'none'}}><Alerts alert={this.props.alert} /></div>
                 </div>
-                <div className='transaction-form mb-3'>
+                <div className='transaction-form pb-3'>
                     <h5>New Transaction</h5>
                     <div className='input-group mt-2 mb-3'>
                         <div className='input-group-prepend'>

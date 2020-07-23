@@ -12,7 +12,7 @@
 }
 
 html, body, div#root{
-  min-height: 100% !important;
+  min-height: 100vh !important;
   font-family: var(--secondary-font);
   background: #e0e0e0;
 }
@@ -42,7 +42,14 @@ h5{
 }
 
 button#btn-reset{
-  color: #2b2766 !important;
+  color: #443da3 !important;
+  border: none;
+  background:inherit;
+  transition: ease-in 5s;
+}
+
+button#btn-reset:active{
+  border: 2px solid red;
 }
 
 
@@ -77,6 +84,13 @@ div.transaction-item{
   border-radius: 5px;
 }
 
+div.transaction-list{
+  max-height: 150px;
+  overflow: auto;
+  border-bottom: 2px solid #6C63FF;
+  padding-bottom: 5px;
+}
+
 a.btn-remove{
   padding: 0;
 }
@@ -86,6 +100,13 @@ p#id , div#expense-alert , div#balance-alert{
   padding: 0;
 }
 
+div.forms{
+
+}
+
+div.input-group , .form-control{
+  color: black !important;
+}
 
 @media(max-width:800px){
   
