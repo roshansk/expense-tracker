@@ -20,6 +20,7 @@ html, body, div#root{
   min-height: 100vh !important;
   font-family: var(--secondary-font);
   background: #e0e0e0;
+  overflow: hidden;
 }
 
 
@@ -31,6 +32,7 @@ div.main{
   background: linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)) , url(./imgs/bitcoin.svg) no-repeat ;
   background-position:center;
   background-size: cover;
+  overflow: hidden;
 }
 
 h1.header{
@@ -92,7 +94,7 @@ div.transaction-item{
 }
 
 div.transaction-list{
-  max-height: 150px;
+  max-height: 250px;
   overflow: auto;
   border-bottom: 2px solid #6C63FF;
   padding-bottom: 5px;

@@ -38,7 +38,6 @@ class Forms extends Component {
 
     render() { 
         return ( 
-            <>
             <div className='forms my-3'>
                 <h5>Add Balance</h5>
                 <div className='add-balance mt-2 pb-3'>
@@ -67,7 +66,6 @@ class Forms extends Component {
                     <div id='expense-alert' style={{display:'none'}} ><Alerts alert={this.props.alert} /></div>
                 </div>
             </div>
-            </>
          );
     }
 }
