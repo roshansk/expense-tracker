@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/expense-tracker/static/css/main.f0848350.chunk.css",
+    "main.js": "/expense-tracker/static/js/main.10ee4c40.chunk.js",
+    "main.js.map": "/expense-tracker/static/js/main.10ee4c40.chunk.js.map",
+    "runtime-main.js": "/expense-tracker/static/js/runtime-main.91d22b83.js",
+    "runtime-main.js.map": "/expense-tracker/static/js/runtime-main.91d22b83.js.map",
+    "static/js/2.5c6c7b36.chunk.js": "/expense-tracker/static/js/2.5c6c7b36.chunk.js",
+    "static/js/2.5c6c7b36.chunk.js.map": "/expense-tracker/static/js/2.5c6c7b36.chunk.js.map",
+    "index.html": "/expense-tracker/index.html",
+    "precache-manifest.236fcba983df6b353ddcf69c9e6092c2.js": "/expense-tracker/precache-manifest.236fcba983df6b353ddcf69c9e6092c2.js",
+    "service-worker.js": "/expense-tracker/service-worker.js",
+    "static/css/main.f0848350.chunk.css.map": "/expense-tracker/static/css/main.f0848350.chunk.css.map",
+    "static/js/2.5c6c7b36.chunk.js.LICENSE.txt": "/expense-tracker/static/js/2.5c6c7b36.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/expense-tracker/static/media/bitcoin.45acf882.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91d22b83.js",
+    "static/js/2.5c6c7b36.chunk.js",
+    "static/css/main.f0848350.chunk.css",
+    "static/js/main.10ee4c40.chunk.js"
+  ]
+}
