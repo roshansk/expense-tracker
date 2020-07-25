@@ -52,7 +52,7 @@ class App extends Component {
     const newBal = this.state.balance + parseInt(amount);
     this.setState({ balance : newBal});
     addBalance(newBal);
-    this.callAlert('balance-alert','text-right text-success','Amount Added.');
+    this.callAlert('balance-alert','text-right accent','Amount Added.');
    }
 
    addTransaction = (statement,amount) => {
@@ -68,7 +68,7 @@ class App extends Component {
     });
 
     addTransaction(cBal,totalSpent,Transactions);
-    this.callAlert('expense-alert','text-right text-info', 'Transaction Saved.');
+    this.callAlert('expense-alert','text-right text-primary', 'Transaction Saved.');
    }
 
    removeTransaction = (id) =>{
@@ -76,7 +76,7 @@ class App extends Component {
     newTransactions.map((item,index) => {
       if(item.id === parseInt(id)){
         newTransactions.splice(index,1);
-        this.callAlert('expense-alert','text-right text-info','Transaction Removed');
+        this.callAlert('expense-alert','text-right text-primary','Transaction Removed');
       }
     })
 
