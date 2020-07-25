@@ -13,7 +13,7 @@ class Transactions extends Component {
     render() { 
         return ( 
            <div className='  transactions'>
-               <h5 className=''>Transactions</h5>
+               <h5 className='pb-0 mb-0'>Transactions</h5>
                 <div className='transaction-list px-2'>
                 {
                    this.props.transactions.map(item => 
