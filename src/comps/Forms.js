@@ -55,7 +55,7 @@ class Forms extends Component {
                         <div className='input-group-prepend'>
                             <label className='input-group-text'>Transaction</label>
                         </div>
-                        <input type='text' id='title'  className ='form-control' placeholder='Statement' disabled={this.props.bal < 1} />
+                        <input type='text' id='title'  className ='form-control' maxLength="25"  placeholder='Statement' disabled={this.props.bal < 1} />
                     </div>
                     <div className='input-group'>
                         <input type='number' id='amount'  className ='form-control' min="1" placeholder='Amount' disabled={this.props.bal < 1} />

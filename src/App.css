@@ -86,12 +86,13 @@ div.counter{
 
 div.transaction-item{
   display: grid;
-  grid-template-columns: 1fr;
-  height:50px;
+  grid-template-columns: 9fr 1fr;
   margin-bottom: 5px;
+  min-height: 50px;
   border: 1px solid #c4c4c4;
   border-radius: 5px;
 }
+
 
 div.transaction-list{
   max-height: 250px;
