@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Alerts extends Component {
     
     render() { 
-        return  <p id='alert' className ={this.props.alert.style} >{this.props.alert.msg}</p>;
+        return  <div id='alert' className ={this.props.alert.style} >{this.props.alert.msg}</div>;
     }
 }
  
